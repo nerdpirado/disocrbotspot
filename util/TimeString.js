@@ -25,14 +25,14 @@ const DEFAULT_OPTS = {
  */
 
 const UNIT_MAP = {
-  ms: ["ms", "milli", "millisecond", "milliseconds"],
-  s: ["s", "sec", "secs", "second", "seconds"],
-  m: ["m", "min", "mins", "minute", "minutes"],
-  h: ["h", "hr", "hrs", "hour", "hours"],
-  d: ["d", "day", "days"],
-  w: ["w", "week", "weeks"],
-  mth: ["mon", "mth", "mths", "month", "months"],
-  y: ["y", "yr", "yrs", "year", "years"],
+  ms: ["ms", "milis", "milissegundo", "milissegundos"],
+  s: ["s", "seg", "segu", "segundo", "segundos"],
+  m: ["m", "min", "minu", "minuto", "minutos"],
+  h: ["h", "ho", "hor", "hora", "horas"],
+  d: ["d", "dia", "dias"],
+  w: ["se", "semana", "semanas"],
+  mês: ["mês", "mês", "mês", "mês", "meses"],
+  y: ["a", "an", "ano", "ano", "anos"],
 };
 
 /**
