@@ -5,8 +5,8 @@ module.exports = async (
   emojiList = ["◀️", "⏹️", "▶️"],
   timeout = 120000
 ) => {
-  if (!msg && !msg.channel) throw new Error("Channel is inaccessible.");
-  if (!pages) throw new Error("Pages are not given.");
+  if (!msg && !msg.channel) throw new Error("Canal está inacessível.");
+  if (!pages) throw new Error("As páginas não são fornecidas.");
 
   let page = 0;
   const curPage = await msg.channel.send(
